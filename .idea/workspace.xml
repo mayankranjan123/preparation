@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maths/CountPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/CountPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maths/RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +48,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClimbStairs">
+  <component name="RunManager" selected="Application.RomanToInt">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.ClimbStairs" />
       <module name="preparation" />
@@ -62,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maths.RomanToInt" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.CountPrimes" />
       </list>
@@ -77,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698472547821</updated>
-      <workItem from="1698472548840" duration="3546000" />
+      <workItem from="1698472548840" duration="4112000" />
     </task>
     <servers />
   </component>
