@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <module name="preparation" />
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary.Ceiling" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.InsertionSort" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiteArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary.InfiteArraySearch" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.RotatedSortedArray" />
-        <item itemvalue="Application.InfiteArraySearch" />
-        <item itemvalue="Application.Ceiling" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <workItem from="1698472548840" duration="5611000" />
       <workItem from="1698654802084" duration="1288000" />
       <workItem from="1698739486632" duration="4560000" />
-      <workItem from="1698818279949" duration="1867000" />
+      <workItem from="1698818279949" duration="4510000" />
     </task>
     <servers />
   </component>
