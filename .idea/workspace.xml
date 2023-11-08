@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/GoodNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/maze/Sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ConcatenatedWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/KthGrammar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/MinimumSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/PermutationSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/PredictWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/maze/LongestRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/maze/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/maze/NQueen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2XNba8ovPpTdQpqWqmANQoNpI7a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,22 +57,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GoodNumbers">
-    <configuration name="AllPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.maze.AllPath" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.maze.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoodNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.GoodNumbers" />
+  <component name="RunManager" selected="Application.KthGrammar">
+    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Combination" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.maze.Maze" />
+    <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ConcatenatedWords" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.maze.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,25 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.maze.NQueen" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.maze.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Subset" />
+    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.KthGrammar" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.PermutationSequence" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniquePaths3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.maze.UniquePaths3" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoodNumbers" />
-        <item itemvalue="Application.Subset" />
-        <item itemvalue="Application.NQueen" />
-        <item itemvalue="Application.AllPath" />
-        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.KthGrammar" />
+        <item itemvalue="Application.UniquePaths3" />
+        <item itemvalue="Application.ConcatenatedWords" />
+        <item itemvalue="Application.PermutationSequence" />
+        <item itemvalue="Application.Combination" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +146,11 @@
       <workItem from="1698739486632" duration="4560000" />
       <workItem from="1698818279949" duration="7945000" />
       <workItem from="1698848721643" duration="6901000" />
-      <workItem from="1698993386597" duration="8345000" />
+      <workItem from="1698993386597" duration="8994000" />
+      <workItem from="1699076163386" duration="703000" />
+      <workItem from="1699087525333" duration="4259000" />
+      <workItem from="1699107944239" duration="1956000" />
+      <workItem from="1699410251453" duration="4177000" />
     </task>
     <servers />
   </component>
@@ -194,7 +205,117 @@
           <line>17</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/GoodNumbers.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/GoodNumbers.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/PredictWinner.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/PredictWinner.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/MinimumSwaps.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/MinimumSwaps.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/MinimumSwaps.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/maze/LongestRoute.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Combination.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/PermutationSequence.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/PermutationSequence.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/PermutationSequence.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ConcatenatedWords.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
