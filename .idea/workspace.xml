@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/ConcatenatedWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Combination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/KthGrammar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/MinimumSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/PermutationSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/PredictWinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/maze/LongestRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FirstUniqueChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/StringInterleave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ShortestCommonSupersequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/TugOfWar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/CircularTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/CompetitiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/DeleteMiddleStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/StockSpan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +60,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KthGrammar">
-    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Combination" />
+  <component name="RunManager" selected="Application.ShortestCommonSupersequence">
+    <configuration name="CompetitiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.CompetitiveSequence" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ConcatenatedWords" />
+    <configuration name="FirstUniqueChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FirstUniqueChar" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.KthGrammar" />
+    <configuration name="ShortestCommonSupersequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ShortestCommonSupersequence" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.PermutationSequence" />
+    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.StockSpan" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.maze.UniquePaths3" />
+    <configuration name="StringInterleave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.StringInterleave" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.maze.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KthGrammar" />
-        <item itemvalue="Application.UniquePaths3" />
-        <item itemvalue="Application.ConcatenatedWords" />
-        <item itemvalue="Application.PermutationSequence" />
-        <item itemvalue="Application.Combination" />
+        <item itemvalue="Application.ShortestCommonSupersequence" />
+        <item itemvalue="Application.StringInterleave" />
+        <item itemvalue="Application.FirstUniqueChar" />
+        <item itemvalue="Application.StockSpan" />
+        <item itemvalue="Application.CompetitiveSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,13 @@
       <workItem from="1699076163386" duration="703000" />
       <workItem from="1699087525333" duration="4259000" />
       <workItem from="1699107944239" duration="1956000" />
-      <workItem from="1699410251453" duration="4177000" />
+      <workItem from="1699410251453" duration="7377000" />
+      <workItem from="1699506122380" duration="8687000" />
+      <workItem from="1699859534398" duration="2400000" />
+      <workItem from="1699942646384" duration="4416000" />
+      <workItem from="1700122811962" duration="372000" />
+      <workItem from="1700211951583" duration="849000" />
+      <workItem from="1700227456169" duration="285000" />
     </task>
     <servers />
   </component>
@@ -309,6 +318,111 @@
           <url>file://$PROJECT_DIR$/src/recursion/maze/UniquePaths3.java</url>
           <line>17</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/KthGrammar.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/KthGrammar.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/LinkedList.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/LinkedList.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/DeleteMiddleStack.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/DeleteMiddleStack.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ReverseStack.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CompetitiveSequence.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CompetitiveSequence.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/CompetitiveSequence.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/StockSpan.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/FirstUniqueChar.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/StringInterleave.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/StringInterleave.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dp/ShortestCommonSupersequence.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
