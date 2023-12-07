@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/FirstUniqueChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/StringInterleave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/ShortestCommonSupersequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/TugOfWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/CircularTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/CompetitiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/DeleteMiddleStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/ReverseStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/StockSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ClosestPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/MaxRemovables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/MaxSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RepeatSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ShiftLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/CheckCousin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,22 +59,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ShortestCommonSupersequence">
-    <configuration name="CompetitiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.CompetitiveSequence" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstUniqueChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FirstUniqueChar" />
+  <component name="RunManager" selected="Application.MaxOnes">
+    <configuration name="ClosestPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ClosestPair" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
@@ -87,38 +73,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestCommonSupersequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.ShortestCommonSupersequence" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StockSpan" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringInterleave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.StringInterleave" />
+    <configuration name="MaxOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxOnes" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxRemovables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.MaxRemovables" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RepeatSubstring" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiftLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ShiftLetter" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShortestCommonSupersequence" />
-        <item itemvalue="Application.StringInterleave" />
-        <item itemvalue="Application.FirstUniqueChar" />
-        <item itemvalue="Application.StockSpan" />
-        <item itemvalue="Application.CompetitiveSequence" />
+        <item itemvalue="Application.MaxOnes" />
+        <item itemvalue="Application.ClosestPair" />
+        <item itemvalue="Application.ShiftLetter" />
+        <item itemvalue="Application.MaxRemovables" />
+        <item itemvalue="Application.RepeatSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +159,13 @@
       <workItem from="1700122811962" duration="372000" />
       <workItem from="1700211951583" duration="849000" />
       <workItem from="1700227456169" duration="285000" />
+      <workItem from="1700277835665" duration="306000" />
+      <workItem from="1700283987411" duration="9990000" />
+      <workItem from="1700620513014" duration="1083000" />
+      <workItem from="1700644693274" duration="1505000" />
+      <workItem from="1701163390685" duration="2678000" />
+      <workItem from="1701678842430" duration="3932000" />
+      <workItem from="1701788708827" duration="806000" />
     </task>
     <servers />
   </component>
@@ -423,6 +429,91 @@
           <url>file://$PROJECT_DIR$/src/dp/ShortestCommonSupersequence.java</url>
           <line>28</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BinaryTree.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BST.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BST.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BinaryTree.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BinaryTree.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/CheckCousin.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/CheckCousin.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Palindrome.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/Palindrome.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/MaxSubstring.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/RepeatSubstring.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/MaxRemovables.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/MaxRemovables.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/ShiftLetter.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/ShiftLetter.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/ShiftLetter.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ClosestPair.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
