@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/CountOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/FirstNegativeInWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaxNonRepeatChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SlidingMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubarrayDivisibleByK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountOccurrences">
-    <configuration name="ClosestPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ClosestPair" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxNonRepeatChar">
     <configuration name="CountOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.CountOccurrences" />
       <module name="preparation" />
@@ -91,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxOnes" />
+    <configuration name="MaxNonRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxNonRepeatChar" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ShiftLetter" />
+    <configuration name="SlidingMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.SlidingMaximum" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubarrayDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubarrayDivisibleByK" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxNonRepeatChar" />
+        <item itemvalue="Application.SubarrayDivisibleByK" />
+        <item itemvalue="Application.SlidingMaximum" />
         <item itemvalue="Application.CountOccurrences" />
         <item itemvalue="Application.FirstNegativeInWindow" />
-        <item itemvalue="Application.MaxOnes" />
-        <item itemvalue="Application.ClosestPair" />
-        <item itemvalue="Application.ShiftLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,7 @@
       <workItem from="1701678842430" duration="3932000" />
       <workItem from="1701788708827" duration="806000" />
       <workItem from="1701957937418" duration="1279000" />
-      <workItem from="1702018119156" duration="1008000" />
+      <workItem from="1702018119156" duration="4246000" />
     </task>
     <servers />
   </component>
@@ -523,6 +524,21 @@
           <url>file://$PROJECT_DIR$/src/slidingwindow/CountOccurrences.java</url>
           <line>12</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/SlidingMaximum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/SlidingMaximum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwindow/SubarrayDivisibleByK.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
