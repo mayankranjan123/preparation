@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaxNonRepeatChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SlidingMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubarrayDivisibleByK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/HasSamePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MinCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MinSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/FrequencySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/Diamond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/FinalClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/Overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/StaticClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaCode/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/BasicThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/ImplementThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +57,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/sales-report-be&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxNonRepeatChar">
-    <configuration name="CountOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CountOccurrences" />
+  <component name="RunManager" selected="Application.ImplementThread">
+    <configuration name="BasicThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.BasicThread" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNegativeInWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.FirstNegativeInWindow" />
+    <configuration name="FinalClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCode.FinalClass" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="javaCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNonRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxNonRepeatChar" />
+    <configuration name="FinalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCode.FinalClass" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="javaCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.SlidingMaximum" />
+    <configuration name="ImplementThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.ImplementThread" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarrayDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubarrayDivisibleByK" />
+    <configuration name="StaticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCode.StaticClass" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="javaCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxNonRepeatChar" />
-        <item itemvalue="Application.SubarrayDivisibleByK" />
-        <item itemvalue="Application.SlidingMaximum" />
-        <item itemvalue="Application.CountOccurrences" />
-        <item itemvalue="Application.FirstNegativeInWindow" />
+        <item itemvalue="Application.ImplementThread" />
+        <item itemvalue="Application.BasicThread" />
+        <item itemvalue="Application.FinalClass (1)" />
+        <item itemvalue="Application.FinalClass" />
+        <item itemvalue="Application.StaticClass" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +174,15 @@
       <workItem from="1701678842430" duration="3932000" />
       <workItem from="1701788708827" duration="806000" />
       <workItem from="1701957937418" duration="1279000" />
-      <workItem from="1702018119156" duration="4246000" />
+      <workItem from="1702018119156" duration="7510000" />
+      <workItem from="1702100759362" duration="1514000" />
+      <workItem from="1702120421711" duration="2311000" />
+      <workItem from="1702268573840" duration="3107000" />
+      <workItem from="1702441617654" duration="918000" />
+      <workItem from="1702706628763" duration="12000" />
+      <workItem from="1702758448397" duration="9000" />
+      <workItem from="1705227200449" duration="7133000" />
+      <workItem from="1705314136677" duration="296000" />
     </task>
     <servers />
   </component>
@@ -536,9 +558,74 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/slidingwindow/SubarrayDivisibleByK.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingwindow/MaxNonRepeatChar.java</url>
           <line>12</line>
-          <option name="timeStamp" value="91" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/trie/Trie.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/trie/Trie.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heap/FrequencySort.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heap/FrequencySort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heap/FrequencySort.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MinCoin.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MaxSum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MaxSum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MaxSum.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MinSubset.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/greedy/MinSubset.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/HasSamePath.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/HasSamePath.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
