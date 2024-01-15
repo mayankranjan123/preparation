@@ -9,13 +9,15 @@ public class CallableExample implements Callable<Integer> {
         ExecutorService service = Executors.newFixedThreadPool(4);
         for (int i = 0; i < 10; i++) {
             Future<Integer> future = service.submit(new CallableExample());
+            future.cancel(true);
             System.out.println(future.get(10, TimeUnit.SECONDS));
         }
     }
 
     @Override
     public Integer call() throws Exception {
-        if (Thread.interrupted()) {
+        if (Thread.currentThread().isInterrupted()) {
+            System.out.println("Interrupted");
             throw new InterruptedException();
         }
         System.out.println("Executing: " + Thread.currentThread().getName());
