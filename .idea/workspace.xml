@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27064f8c-b351-44e7-9e02-caf905ef5266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/HasSamePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MinSubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/FrequencySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/Diamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/FinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/Overriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaCode/StaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/BasicThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/ImplementThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/BlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/SynchronisedThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,39 +54,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ImplementThread">
-    <configuration name="BasicThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.BasicThread" />
+  <component name="RunManager" selected="Application.Semaphore">
+    <configuration name="BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.BlockingQueue" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCode.FinalClass" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCode.FinalClass" />
-      <module name="preparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +81,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCode.StaticClass" />
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.ProducerConsumer" />
       <module name="preparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCode.*" />
+          <option name="PATTERN" value="threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Semaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.Semaphore" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronisedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.SynchronisedThread" />
+      <module name="preparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Semaphore" />
+        <item itemvalue="Application.BlockingQueue" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.SynchronisedThread" />
         <item itemvalue="Application.ImplementThread" />
-        <item itemvalue="Application.BasicThread" />
-        <item itemvalue="Application.FinalClass (1)" />
-        <item itemvalue="Application.FinalClass" />
-        <item itemvalue="Application.StaticClass" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +170,7 @@
       <workItem from="1702706628763" duration="12000" />
       <workItem from="1702758448397" duration="9000" />
       <workItem from="1705227200449" duration="7133000" />
-      <workItem from="1705314136677" duration="296000" />
+      <workItem from="1705314136677" duration="6389000" />
     </task>
     <servers />
   </component>
